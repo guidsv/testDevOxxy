@@ -1,0 +1,71 @@
+![C#](https://img.shields.io/badge/C%23-9C27B0?style=for-the-badge&logo=csharp&logoColor=white)![.NET](https://img.shields.io/badge/.NET-5.0-blue)
+
+# Gerenciador de Tarefas
+
+## Descrição
+
+Este é um gerenciador de tarefas simples que permite adicionar, listar, editar, remover e filtrar tarefas. O sistema utiliza o padrão de projeto orientado a objetos e é desenvolvido em C# com .NET.
+
+## Funcionalidades
+
+- Adicionar Tarefas
+- Listar Tarefas
+- Editar Tarefas
+- Remover Tarefas
+- Filtrar Tarefas por status
+- Buscar Tarefas por título
+
+## Estrutura do Projeto
+
+```
+taskmanager/
+├── Program.cs         // Contém a lógica principal do aplicativo
+├── Tarefa.cs          // Define a classe Tarefa com propriedades e métodos
+├── TaskManager.cs     // Implementa a lógica de gerenciamento das tarefas
+├── Enums.cs           // Define enums utilizados no projeto, como StatusTarefa
+├── README.md          // Documentação do projeto
+├── Tests/             // Pasta onde os testes do NUnit estão localizados
+│   └── TaskManagerTests.cs // Contém os testes para as funcionalidades do gerenciador de tarefas
+```
+
+## Requisitos
+
+- [.NET SDK](https://dotnet.microsoft.com/download) (versão 5.0 ou superior)
+
+## Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
+   ```
+
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd gerenciador-de-tarefas
+   ```
+
+3. Instale as dependências do NUnit:
+   ```bash
+   dotnet add package NUnit
+   dotnet add package NUnit3TestAdapter
+   ```
+
+## Executando o Projeto
+
+Para executar o gerenciador de tarefas, use o seguinte comando:
+
+```bash
+dotnet run
+```
+
+## Testes
+
+Para executar os testes unitários utilizando NUnit:
+
+1. Certifique-se de que o NUnit e o NUnit3TestAdapter estejam instalados no seu projeto (conforme mencionado na seção de instalação).
+2. Para executar os testes, use o seguinte comando:
+   ```bash
+   dotnet test
+   ```
+
+Os testes irão compilar o projeto e executar todos os testes encontrados. Você verá um resumo dos resultados dos testes no console.

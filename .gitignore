@@ -1,0 +1,54 @@
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.ide
+
+Visual Studio Code
+.vscode/
+
+Visual Studio temporary files
+*.ncb
+*.sdf
+*.opensdf
+*.sln.ide
+
+Rider
+.idea/
+*.sln.iml
+
+Logs
+*.log
+
+Backup files
+*.bak
+*.tmp
+*.temp
+
+Other files
+*.vs/
+*.db
+*.pdb
+
+NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+DotNet specific files
+project.lock.json
+project.json
+*.dotnet/
+
+Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
