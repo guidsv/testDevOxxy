@@ -41,13 +41,7 @@ taskmanager/
    ```bash
    cd gerenciador-de-tarefas
    ```
-
-3. Instale as dependências do NUnit:
-   ```bash
-   dotnet add package NUnit
-   dotnet add package NUnit3TestAdapter
-   ```
-
+   
 ## Executando o Projeto
 
 Para executar o gerenciador de tarefas, use o seguinte comando:
