@@ -24,8 +24,6 @@ taskmanager/
 ├── TaskManager.cs     // Implementa a lógica de gerenciamento das tarefas
 ├── Enums.cs           // Define enums utilizados no projeto, como StatusTarefa
 ├── README.md          // Documentação do projeto
-├── Tests/             // Pasta onde os testes do NUnit estão localizados
-│   └── TaskManagerTests.cs // Contém os testes para as funcionalidades do gerenciador de tarefas
 ```
 
 ## Requisitos
@@ -58,13 +56,6 @@ Para executar o gerenciador de tarefas, use o seguinte comando:
 dotnet run
 ```
 
-## Testes
-
-Para executar os testes unitários utilizando NUnit:
-
-1. Certifique-se de que o NUnit e o NUnit3TestAdapter estejam instalados no seu projeto (conforme mencionado na seção de instalação).
-2. Para executar os testes, use o seguinte comando:
-   ```bash
    dotnet test
    ```
 
