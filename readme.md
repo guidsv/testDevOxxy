@@ -55,8 +55,3 @@ Para executar o gerenciador de tarefas, use o seguinte comando:
 ```bash
 dotnet run
 ```
-
-   dotnet test
-   ```
-
-Os testes irão compilar o projeto e executar todos os testes encontrados. Você verá um resumo dos resultados dos testes no console.
