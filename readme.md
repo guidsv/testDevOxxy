@@ -48,5 +48,9 @@ taskmanager/
 Para executar o gerenciador de tarefas, use o seguinte comando:
 
 ```bash
+cd projetoguigas
+```
+
+```bash
 dotnet run
 ```
