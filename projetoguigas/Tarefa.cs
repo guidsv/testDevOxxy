@@ -3,7 +3,7 @@ using System;
 
 namespace TaskManagerApp
 {
-    public class Tarefa
+    public class Tarefa //Classe que irá armazenar todas as listas de tarefas que o usuário colocar no sistema.
     {
         public string Titulo { get; private set; }
         public string Descricao { get; private set; }

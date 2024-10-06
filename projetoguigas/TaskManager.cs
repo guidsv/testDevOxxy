@@ -5,11 +5,12 @@ using System.Linq;
 
 namespace TaskManagerApp
 {
-    public class TaskManager
+    public class TaskManager // Classe principal que oferece funcionalidades de listar tarefas.
     {
-        private List<Tarefa> listaTarefas = new List<Tarefa>();
+        private List<Tarefa> listaTarefas = new List<Tarefa>(); // Atributo de uma Lista privada que irá armazenar todas as tarefas criadas.
 
-        public void AdicionarTarefa()
+        // Lista de métodos.
+        public void AdicionarTarefa() 
         {
             Console.Write("Digite o título da tarefa: ");
             string titulo = Console.ReadLine();
@@ -23,7 +24,7 @@ namespace TaskManagerApp
             Console.WriteLine("Tarefa adicionada com sucesso!\n");
         }
 
-        public void ListarTarefas()
+        public void ListarTarefas() 
         {
             if (!listaTarefas.Any())
             {
@@ -41,7 +42,7 @@ namespace TaskManagerApp
             }
         }
 
-        public void EditarTarefa()
+        public void EditarTarefa() 
         {
             ListarTarefas();
             if (!listaTarefas.Any()) return;
@@ -113,7 +114,7 @@ namespace TaskManagerApp
             }
         }
 
-        public void BuscarPorTitulo()
+        public void BuscarPorTitulo() // Permite buscar tarefas cujo título contenha uma string fornecida pelo usuário, ignorando maiúsculas e minúsculas.
         {
             Console.Write("Digite o título que deseja buscar: ");
             string buscaTitulo = Console.ReadLine();
@@ -138,7 +139,7 @@ namespace TaskManagerApp
             }
         }
 
-        private StatusTarefa SelecionarStatus()
+        private StatusTarefa SelecionarStatus() // Irá exibir um menu para o usuário escolher qual status deseja.
         {
             while (true)
             {

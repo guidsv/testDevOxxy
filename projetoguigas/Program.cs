@@ -7,17 +7,17 @@ namespace TaskManagerApp
     {
         static void Main(string[] args)
         {
-            TaskManager taskManager = new TaskManager();
+            TaskManager taskManager = new TaskManager(); //Variável de controle que irá gerenciar as tarefas
             bool sair = false;
 
             while (!sair)
             {
                 MostrarMenu();
                 Console.Write("Selecione uma opção: ");
-                string opcao = Console.ReadLine();
+                string opcao = Console.ReadLine(); 
                 Console.WriteLine();
 
-                switch (opcao)
+                switch (opcao) // Verifica a entrada do usuário de acordo com a opção desejada.
                 {
                     case "1":
                         taskManager.AdicionarTarefa();
